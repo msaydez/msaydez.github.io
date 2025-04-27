@@ -27,53 +27,122 @@
   
   <body>
 
-    <header id="header">
-      <img src="logo.png">
-      <h1>M'Saydez Campbell</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
-    </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
-            </p>
-          </div>
-          
-        </div>
+<div id="layout-content" style="margin-top:25px">
+
+
+<table>
+	<tbody>
+		<tr>
+			<td width="75%">
+				<div id="toptitle">
+					<h1>M'Saydez Campbell<h1>
+				</div>
+
+                PhD Student
+
+	  <p>
+      msaydez_campbell@hotmail.com</br>
+		</p>
+		<p>
+			<a href="https://https://github.com/msaydez"><img src="assets/logos/github_logo.png" height="30px"></a>&nbsp;&nbsp;
+			<a href="https://www.linkedin.com/in/m-saydez-campbell-08851110a/"><img src="assets/logos/linkedin_logo.png" height="30px"></a>&nbsp;&nbsp;
+		</p>
+			</td>
+
+			</td>
+			<td width="25%">
+				<img src="assets/imgs/me2.PNG" width="100%"/>
+			</td>
+		<tr>
+	</tbody>
+</table>
+
+
+<h2>Biography</h2> 
+
+<p>
+
+</p>
+<p>
+
+</p>
+
+
+
+<p id="publications">
+<h2>Publications
+    (<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
+     <a href="" id="select1" onclick="showPubs(1); return false;">show all</a>)
+</h2>
+</p>
+
+
+<div id="pubs"></div>
+<script id="pubs_selected">
+
+    <div class="paper" style="clear:left;">
+      <div class="pimg" style="float:left;margin-bottom:10px;padding-left:3px;border-bottom:solid 1px #EEE;box-shadow:0 0px 2px">
+          <img src="assets/imgs/llamagen.png" width="200" >
+      </div>
+      <div class="ptitle" style="padding:1px;margin-left:215px;">
+          Slope-Track: A Multiple Object Tracking Dataset on Different Ski Slopes under Diverse Conditions
+      </div>
+      <div class="pauthors" style="padding:1px;margin-left:215px;">
+          <b>M’Saydez Campbell</b> , Christophe Ducottet, Damien Muselet, Remi Emonet
+      </div>
+      <div class="pvenue" style="padding:1px;margin-left:215px;">
+          arXiv:2406.06525, 2024
+          <p>
+          [<a href="" target="_blank" rel="noopener">paper</a>]
+          [<a href="" target="_blank" rel="noopener">code</a>] 
+          <b style='color:red;'>Coming soon</b>
+          </p>
       </div>
     </div>
 
-    <footer>  
-      Footer region
-    </footer>
+
+<!-- </ul> -->
+</script>
+
+
+<script>showPubs(0);</script>
+<script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});</script>
+
+
+<h2></h2>
+
+<ul>
+    <li>
+    </li>
     
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+</ul>
+
+
+<h2></h2>
+
+<ul>
+    <li>
+       
+    </li>
+
+    <li>
+     
+    </li>
+
+    <li>
+       
+    </li>
+</ul>
+
+<table width="100%"> 
+	<tr> 
+		<td align="center">&copy; M'Saydez Campbell | Last update: April 2025</td>
+	</tr> 
+</table>
+
+</div>
+
+
+</body>
+
 </html>
